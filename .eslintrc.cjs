@@ -18,7 +18,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react/prop-types': 0,
     'react/display-name': 0,
-    //Mui
+    //Mui don't import 3-lv
     'no-restricted-imports': [
       'error',
       {
