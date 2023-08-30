@@ -6,3 +6,6 @@ css_base_line
 MUI -> theming --> Default Theme viewer
 
 dark-light mode :https://mui.com/material-ui/experimental-api/css-theme-variables/migration/
+fix Dark mode flickering
+https://mui.com/material-ui/experimental-api/css-theme-variables/overview/#usecolorscheme-colorschemecontextvalue
+https://mui.com/material-ui/experimental-api/css-theme-variables/overview/#cssvarsprovider-gt-props
