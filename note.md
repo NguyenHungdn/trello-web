@@ -14,3 +14,6 @@ https://mui.com/material-ui/experimental-api/css-theme-variables/overview/#cssva
 **\_\_\_**https://mui.com/material-ui/customization/how-to-customize/
 
 --------------------Layout-----------------
+
+Absolute ~ & Relative import ../../ config in vite.config alias
+add file jsconfig.js
