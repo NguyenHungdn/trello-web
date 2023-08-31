@@ -23,3 +23,10 @@ svgr custom SvgIcon -> svg mui
 |\_\_ Tooltip , badge ,
 -- theme Override
 custom outline https://stackoverflow.com/questions/69860132/how-to-remove-the-border-of-the-material-ui-select-component/73707977#73707977
+
+---------Responsive------------
+--AppBar: https://mui.com/material-ui/react-app-bar/
+--Drawer: https://mui.com/material-ui/react-drawer/
+--BreakPoints: https://mui.com/material-ui/customization/breakpoints/
+--Custom scrollbar: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+--color: https://flatuicolors.com/
