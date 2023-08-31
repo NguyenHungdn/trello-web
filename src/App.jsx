@@ -1,4 +1,5 @@
 import Board from './pages/Boards/_id'
+import { experimental_extendTheme as extendTheme } from '@mui/material/styles'
 
 function App() {
   return (

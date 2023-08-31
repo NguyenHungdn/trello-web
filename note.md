@@ -19,3 +19,7 @@ Absolute ~ & Relative import ../../ config in vite.config alias
 add file jsconfig.js
 
 svgr custom SvgIcon -> svg mui
+------AppBar -----------
+|\_\_ Tooltip , badge ,
+-- theme Override
+custom outline https://stackoverflow.com/questions/69860132/how-to-remove-the-border-of-the-material-ui-select-component/73707977#73707977
