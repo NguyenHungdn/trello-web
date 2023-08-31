@@ -17,3 +17,5 @@ https://mui.com/material-ui/experimental-api/css-theme-variables/overview/#cssva
 
 Absolute ~ & Relative import ../../ config in vite.config alias
 add file jsconfig.js
+
+svgr custom SvgIcon -> svg mui
