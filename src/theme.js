@@ -1,5 +1,5 @@
 // import { createTheme } from '@mui/material/styles'
-import { cyan, deepOrange, orange, teal } from '@mui/material/colors'
+// import { cyan, deepOrange, orange, teal } from '@mui/material/colors'
 import { experimental_extendTheme as extendTheme } from '@mui/material/styles'
 
 const theme = extendTheme({
@@ -8,18 +8,18 @@ const theme = extendTheme({
     boardBarHeight: '60px'
   },
   colorSchemes: {
-    light: {
-      palette: {
-        primary: teal,
-        secondary: deepOrange
-      }
-    },
-    dark: {
-      palette: {
-        primary: cyan,
-        secondary: orange
-      }
-    }
+    // light: {
+    //   palette: {
+    //     primary: teal,
+    //     secondary: deepOrange
+    //   }
+    // },
+    // dark: {
+    //   palette: {``
+    //     primary: cyan,
+    //     secondary: orange
+    //   }
+    // }
   },
   components: {
     // custom scrollbar
@@ -56,7 +56,7 @@ const theme = extendTheme({
         root: ({ theme }) => {
           return {
             //
-            color: theme.palette.primary.main,
+            // color: theme.palette.primary.main,
             fontSize: '0.875rem'
           }
         }
@@ -68,20 +68,26 @@ const theme = extendTheme({
         root: ({ theme }) => {
           return {
             //lấy ra màu primary.main theo mode light dark
-            color: theme.palette.primary.main,
+            // color: theme.palette.primary.main,
             fontSize: '0.875rem',
             //config border outline của MUI
             '.MuiOutlinedInput-notchedOutline': {
-              borderColor: theme.palette.primary.light
+              // borderColor: theme.palette.primary.light
             },
             //khi hover
             '&:hover': {
               '.MuiOutlinedInput-notchedOutline': {
-                borderColor: theme.palette.primary.main
+                // borderColor: theme.palette.primary.main
               }
             },
             '& fieldset': {
-              borderWidth: '1px !important'
+              borderWidth: '0.5px !important'
+            },
+            '&:hover fieldset': {
+              borderWidth: '2px !important'
+            },
+            '&.Mui-focused fieldset': {
+              borderWidth: '2px !important'
             }
           }
         }
