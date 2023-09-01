@@ -30,3 +30,6 @@ custom outline https://stackoverflow.com/questions/69860132/how-to-remove-the-bo
 --BreakPoints: https://mui.com/material-ui/customization/breakpoints/
 --Custom scrollbar: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
 --color: https://flatuicolors.com/
+
+-------------BoardBar-------------------
+startIcon Button endIcon

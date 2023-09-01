@@ -17,6 +17,7 @@ import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone'
 import Tooltip from '@mui/material/Tooltip'
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline'
 import Profile from './Menus/Profile'
+import LibraryAddIcon from '@mui/icons-material/LibraryAdd'
 
 function AppBar() {
   return (
@@ -60,7 +61,9 @@ function AppBar() {
             <Recent />
             <Starred />
             <Template />
-            <Button variant="outlined">Create</Button>
+            <Button variant="outlined" startIcon={<LibraryAddIcon />}>
+              Create
+            </Button>
           </Box>
           {/* End Menu-Item */}
         </Box>
