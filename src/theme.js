@@ -31,11 +31,11 @@ const theme = extendTheme({
             height: '8px'
           },
           '*::-webkit-scrollbar-thumb': {
-            backgroundColor: '#bdc3c7',
+            backgroundColor: '#dcdde1',
             borderRadius: '8px'
           },
           '*::-webkit-scrollbar-thumb:hover': {
-            backgroundColor: '#00b894',
+            backgroundColor: 'white',
             borderRadius: '8px'
           }
         }
@@ -46,14 +46,16 @@ const theme = extendTheme({
       styleOverrides: {
         // Name of the slot
         root: {
-          textTransform: 'none'
+          textTransform: 'none',
+          borderWidth: '1px',
+          '&:hover': { borderWidth: '1px' }
         }
       }
     },
     MuiInputLabel: {
       styleOverrides: {
         // InputLabel --Mode
-        root: ({ theme }) => {
+        root: () => {
           return {
             //
             // color: theme.palette.primary.main,
@@ -65,23 +67,23 @@ const theme = extendTheme({
     MuiOutlinedInput: {
       styleOverrides: {
         // Name of the slot
-        root: ({ theme }) => {
+        root: () => {
           return {
             //lấy ra màu primary.main theo mode light dark
             // color: theme.palette.primary.main,
             fontSize: '0.875rem',
             //config border outline của MUI
-            '.MuiOutlinedInput-notchedOutline': {
-              // borderColor: theme.palette.primary.light
-            },
-            //khi hover
-            '&:hover': {
-              '.MuiOutlinedInput-notchedOutline': {
-                // borderColor: theme.palette.primary.main
-              }
-            },
+            // '.MuiOutlinedInput-notchedOutline': {
+            //   // borderColor: theme.palette.primary.light
+            // },
+            // //khi hover
+            // '&:hover': {
+            //   '.MuiOutlinedInput-notchedOutline': {
+            //     // borderColor: theme.palette.primary.main
+            //   }
+            // },
             '& fieldset': {
-              borderWidth: '0.5px !important'
+              borderWidth: '1px !important'
             },
             '&:hover fieldset': {
               borderWidth: '2px !important'
