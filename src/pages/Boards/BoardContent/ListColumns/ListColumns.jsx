@@ -17,7 +17,6 @@ function ListColumns() {
     >
       <Column />
       <Column />
-      <Column />
       {/* add column */}
       <Box
         sx={{
