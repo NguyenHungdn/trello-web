@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
-import ModeSelect from '../ModeSelect/ModeSelect'
+import ModeSelect from '../ModeSelect'
 //Component prop SVG
 import AppsIcon from '@mui/icons-material/Apps'
 
