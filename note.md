@@ -32,4 +32,7 @@ custom outline https://stackoverflow.com/questions/69860132/how-to-remove-the-bo
 --color: https://flatuicolors.com/
 
 -------------BoardBar-------------------
-startIcon Button endIcon
+<startIcon Button endIcon />
+
+-------------BoardContent-----------
+margin for scrollbar css : trick {p 0 5px , m: 0 5px}
