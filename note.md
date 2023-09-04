@@ -36,3 +36,13 @@ custom outline https://stackoverflow.com/questions/69860132/how-to-remove-the-bo
 
 -------------BoardContent-----------
 margin for scrollbar css : trick {p 0 5px , m: 0 5px}
+
+BoardContent
+|
+ListColumns
+|
+Column
+|
+ListCards
+|
+Card
