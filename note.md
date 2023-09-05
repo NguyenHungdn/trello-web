@@ -46,3 +46,13 @@ Column
 ListCards
 |
 Card
+------- drap-drop---
+"@dnd-kit/core": "^6.0.8",
+"@dnd-kit/sortable": "^7.0.2",
+"@dnd-kit/utilities": "^3.2.1",
+
+- (Sortable Context) Lưu ý về mảng Items trong component SortableContext
+  https://github.com/clauderic/dnd-kit/issues/183#issuecomment-812569512- (Sensors) Yêu cầu chuột di chuyển 10px thì mới kích hoạt, fix trường hợp click bị gọi event
+  https://docs.dndkit.com/api-documentation/sensors#usesensorLỗi kéo thả phần tử bị stretch khá dị:
+  https://github.com/clauderic/dnd-kit/issues/117- Dung sai của cảm ứng: Tolerance ()
+  https://docs.dndkit.com/api-documentation/sensors/touch#delay
