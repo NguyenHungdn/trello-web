@@ -77,6 +77,7 @@ function BoardContent({ board }) {
     setActiveDragItemType(null)
     setActiveDragItemData(null)
   }
+
   // Antimation khi thả (Drop) phần tử  -Test bằng cách kéo xong thả trực tiếp và nhìn phần giữ chỗ Overlay (video32)
   const customDropAnimation = {
     sideEffects: defaultDropAnimationSideEffects({
@@ -100,7 +101,7 @@ function BoardContent({ board }) {
         {/* Box columns */}
         <ListColumns columns={orderedColumnsState} />
         <DragOverlay dropAnimation={customDropAnimation}>
-          {!activeDragItemId || !activeDragItemType & null}
+          {!activeDragItemType && null}
           {activeDragItemId && activeDragItemType === ACTIVE_DRAG_ITEM_TYPE.COLUMN && (
             <Column column={activeDragItemData} />
           )}
